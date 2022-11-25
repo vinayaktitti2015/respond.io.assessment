@@ -1,0 +1,16 @@
+{
+  "name": "test-assessment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "uitests": "cypress run -s 'cypress/e2e/uitests/ui.specs.cy.js'",
+    "apitests": "cypress run -s 'cypress/e2e/apitests/api.testsuite.cy.js'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.2.0"
+  }
+}
