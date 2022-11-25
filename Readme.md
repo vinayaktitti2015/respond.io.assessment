@@ -33,6 +33,10 @@ or
 
 Test Execution:
 
+# pre-requisite
+open terminal
+1. run cmmd: npm install 
+
 # Open testrunner - 
 open terminal
 1. run cmmd: npx cypress open
